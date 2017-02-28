@@ -31,7 +31,7 @@ $this->load->view('template/sidebar');
 <section class="content">
             <div class="box box-solid box-primary">
                 <div class="box-header">
-                    <h3 class="box-title">Data Usulan GTK</h3>
+                    <h3 class="box-title">DATA USULAN GTK</h3>
                 </div>
                 <div class="box-body">
                 	<div class="row">
@@ -96,79 +96,75 @@ $this->load->view('template/sidebar');
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Internet
-                    Explorer 4.0
+                  <td>ZAINUL ARIFIN, S.A.P., M.Sc.
                   </td>
-                  <td>Win 95+</td>
+                  <td>Kolonel Inf</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Internet
-                    Explorer 5.0
+                  <td>I GUSTI KETUT ARTASUYASA
                   </td>
-                  <td>Win 95+</td>
+                  <td>Letkol Inf</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>Internet
-                    Explorer 5.5
+                  <td>TOMMY ANDERSON, MPICT
                   </td>
-                  <td>Win 95+</td>
+                  <td>Letkol Inf</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>Internet
-                    Explorer 6
+                  <td>ZULMAI HENDRI, A.Mk.Ak
                   </td>
-                  <td>Win 98+</td>
+                  <td>Mayor Ckm</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>5</td>
-                  <td>Internet Explorer 7</td>
-                  <td>Win XP SP2+</td>
+                  <td>RAKHMAT SHALEH SIREGAR</td>
+                  <td>Mayor Inf</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>6</td>
-                  <td>AOL browser (AOL desktop)</td>
-                  <td>Win XP</td>
+                  <td>RONALD SITORUS</td>
+                  <td>Mayor Chb</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>7</td>
-                  <td>Firefox 1.0</td>
-                  <td>Win 98+ / OSX.2+</td>
+                  <td>SUHARMAN, S.Pd.</td>
+                  <td>Mayor Kav</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>8</td>
-                  <td>Firefox 1.5</td>
-                  <td>Win 98+ / OSX.2+</td>
+                  <td>BISMI TAMBUHAN</td>
+                  <td>Mayor Arh</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>9</td>
-                  <td>Firefox 2.0</td>
-                  <td>Win 98+ / OSX.2+</td>
+                  <td>FERRY ARDIYATMOKO</td>
+                  <td>Praka</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>10</td>
-                  <td>Firefox 3.0</td>
-                  <td>Win 2k+ / OSX.3+</td>
+                  <td>HERI PURWANTO</td>
+                  <td>Praka</td>
                   <td>Satyalancana Karya Satya</td>
                   <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
@@ -260,7 +256,7 @@ $this->load->view('template/js');
     $(document).ready(function() {
         $('#example1').DataTable( {
           "bLengthChange" : false,
-          "aoColumns":[{"sType": 'numeric'}],
+          "aoColumns":[{"sType": 'numeric'}, {"sType": 'string'}, {"sType": 'string'}, {"sType": 'string'}, {"sType": 'string'}],
           "bFilter" : true,
           "bInfo" : false,
           "pageLength" : 25,
