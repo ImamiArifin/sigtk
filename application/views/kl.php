@@ -36,70 +36,70 @@ $this->load->view('template/sidebar');
                    <thead>
                    <tr>
                    	 <th style="width: 5%;text-align: center;">No</th>
-                     <th style="width: 85%;text-align: center;">Usulan Bulan &amp; Tahun</th>
-                     <th style="width: 10%;text-align: center">Menu</th>
+                     <th style="width: 75%;text-align: center;">Usulan Bulan &amp; Tahun</th>
+                     <th style="width: 20%;text-align: center">Menu</th>
                    </tr>
                    </thead>
                    <tbody>
                    <tr>
                      <td style="text-align: center;">1</td>
                      <td>Januari 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/1'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">2</td>
                      <td>Februari 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/2'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/2'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">3</td>
                      <td>Maret 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/3'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/3'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">4</td>
                      <td>April 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/4'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/4'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">5</td>
                      <td>Mei 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/5'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/5'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">6</td>
                      <td>Juni 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/6'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/6'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">7</td>
                      <td>Juli 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/7'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/7'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">8</td>
                      <td>Agustus 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/8'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/8'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">9</td>
                      <td>September 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/9'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/9'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">10</td>
                      <td>Oktober 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/10'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/10'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">11</td>
                      <td>November 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/11'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/11'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">12</td>
                      <td>Desember 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/12'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('KL/lihat/12'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
                    </tr>
                    </tbody>
                  </table>
