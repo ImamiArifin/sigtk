@@ -50,8 +50,7 @@
                     <span>Administrasi</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Pendataan Surat Usulan</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Pengagendaan Surat Usulan</a></li>
+                    <li><a href="<?php echo base_url('index.php/Administrasi') ?>"><i class="fa fa-circle-o"></i> Unduh File Piagam</a></li>
                 </ul>
             </li>
 			<li class="treeview">
