@@ -40,7 +40,7 @@
                     <span>Kementrian / Lembaga</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Pengisian Data GTK</a></li>
+                    <li><a href="<?php echo base_url('index.php/KL'); ?>"><i class="fa fa-circle-o"></i> Pengisian Data GTK</a></li>
                     <li><a href="#"><i class="fa fa-circle-o"></i> Pembuatan Surat Usulan</a></li>
                 </ul>
             </li>
