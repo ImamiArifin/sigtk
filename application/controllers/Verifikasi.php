@@ -5,13 +5,20 @@ class Verifikasi extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('instansi');
+		$this->load->view('kl');
 	}
 
-	public function verifikasis()
+	public function lihat($id = null, $subid = null)
 	{
-
-		$this->load->view('verifikasi');
+		if($id != null AND $subid == null){
+			$this->load->view('lihat');
+		}
+		else if($id != null AND $subid != null){
+			$this->load->view('verifikasi');
+		}
+		else{
+			//echo "<script>history.go(-1);</script>";
+		}
 	}
 
 	public function cetakMemo()
