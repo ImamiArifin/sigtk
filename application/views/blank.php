@@ -38,7 +38,6 @@ $this->load->view('template/sidebar');
             Footer
         </div><!-- /.box-footer-->
     </div><!-- /.box -->
-
 </section><!-- /.content -->
 
 <?php 
