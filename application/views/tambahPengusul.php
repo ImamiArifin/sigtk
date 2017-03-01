@@ -87,45 +87,20 @@ $this->load->view('template/sidebar');
                 <thead>
                 <tr>
                   <th>No</th>
-                  <th>Nama</th>
-                  <th>NIP</th>
-                  <th>OK</th>
-                  <th>Masa Kerja</th>
-                  <th>Berkas</th>
-                  <th>Jabatan Belum Dapat</th>
-                  <th>Catatan</th>
+                  <th>Nama / NIP</th>
+                  <th>Golongan / Jabatan</th>
+                  <th>Usulan GTK</th>
+                  <th>Menu</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>ZAINUL ARIFIN, S.A.P., M.Sc.</td>
-                  <td></td>
-                  <td ><div class="form-group" style="text-align: center; vertical-align: middle;">
-                      <label>
-                        <input type="checkbox" class="flat-blue">
-                      </label>
-                      </div>
+                  <td>ZAINUL ARIFIN, S.A.P., M.Sc.
                   </td>
-                  <td align="center"><div class="form-group">
-                      <label>
-                        <input type="checkbox" class="flat-red">
-                      </label>
-                      </div>
-                  </td>
-                  <td align="center"><div class="form-group">
-                      <label>
-                        <input type="checkbox" class="flat-red">
-                      </label>
-                      </div>
-                  </td>
-                  <td align="center"><div class="form-group">
-                      <label>
-                        <input type="checkbox" class="flat-red">
-                      </label>
-                      </div>
-                  </td>
-                  <td><textarea></textarea></td>
+                  <td>Kolonel Inf</td>
+                  <td>Satyalancana Karya Satya</td>
+                  <td><a class="btn btn-primary" href="#">Ubah</a> | <a class="btn btn-danger" href="#">Hapus</a></td>
                 </tr>
                 <tr>
                   <td>2</td>
@@ -316,11 +291,7 @@ $this->load->view('template/js');
         });
     });
   });
-
 </script>
-
-
-
 
 <?php
 $this->load->view('template/foot');
