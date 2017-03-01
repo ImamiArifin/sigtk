@@ -72,7 +72,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="#"><i class="fa fa-circle-o"></i> Histori Penerimaan GTK</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Cetak Dokumen</a></li>
+                    <li><a href="<?php echo base_url('index.php/Penganugerahan/cetak'); ?>"><i class="fa fa-circle-o"></i> Cetak Dokumen</a></li>
                 </ul>
             </li>
 			</ul>
