@@ -30,14 +30,55 @@ $this->load->view('template/sidebar');
                <div class="box-body">
                <form>
                	 <div class="row">
-               	 	<div class="col-xs-6"><pre>Keputusan Presiden</pre><br>
+               	 	<div class="col-xs-6"><strong><h1></strong><pre class="text-info btn btn-primary form-control">Keputusan Presiden</pre></h1></strong>
+                  <div class="form-group">
+                    <label for="example-text-input" class="col-1 col-form-label">NO KEPPRES</label>
+                    <div class="col-4">
+                      <input class="form-control" type="text" id="example-text-input">
+                    </div>
+                    <br>
+                    <label for="example-text-input" class="col-1 col-form-label">TGL KEPPRES</label>
+                    <div class="col-4">
+                      <input class="form-control" type="date" id="example-text-input">
+                    </div>
+                  </div>
                	 	</div>
-               	 	<div class="col-xs-6"><pre>Surat Menteri</pre><br></div>
+               	 	<div class="col-xs-6"><strong><h1></strong><pre class="text-info btn btn-primary form-control">Surat Menteri</pre></h1></strong>
+                  <label for="example-text-input" class="col-1 col-form-label">NO SURAT MENTERI</label>
+                  <div class="col-4">
+                    <input class="form-control" type="text" id="example-text-input">
+                  </div>
+                  <br>
+                  <label for="example-text-input" class="col-1 col-form-label">TGL SURAT MENTERI</label>
+                  <div class="col-4">
+                    <input class="form-control" type="date" id="example-text-input">
+                  </div></div>
                	 </div>
                	 <div class="row">
-               	 	<div class="col-xs-6"><pre>Memo SESMILPRES</pre><br></div>
-               	 	<div class="col-xs-6"><pre>MAJU &amp; KEMBALI</pre><br></div>
+               	 	<div class="col-xs-6"><strong><h1></strong><pre class="text-info btn btn-primary form-control">Memo SESMILPRES</pre></h1></strong>
+                  <label for="example-text-input" class="col-1 col-form-label">NO MEMO SESMILPRES</label>
+                    <div class="col-4">
+                      <input class="form-control" type="text" id="example-text-input">
+                    </div>
+                    <br>
+                    <label for="example-text-input" class="col-1 col-form-label">TGL MEMO SESMILPRES</label>
+                    <div class="col-4">
+                      <input class="form-control" type="date" id="example-text-input">
+                    </div></div>
+               	 	<div class="col-xs-6"><strong><h1></strong><pre class="text-info btn btn-primary form-control">MAJU &amp; KEMBALI</pre></h1></strong>
+                  <label for="example-text-input" class="col-1 col-form-label">TGL MAJU</label>
+                  <div class="col-4">
+                    <input class="form-control" type="date" id="example-text-input">
+                  </div>
+                  <br>
+                  <label for="example-text-input" class="col-1 col-form-label">TGL KEMBALI</label>
+                  <div class="col-4">
+                    <input class="form-control" type="date" id="example-text-input">
+                  </div>
+                  </div>
                	 </div>
+                 <br><br>
+                 <button type="submit" class="btn btn-primary">SIMPAN</button>&nbsp;<button type="reset" class="btn btn-danger">BATAL</button>
                </form>
                </div>
                <!-- /.box-body -->
