@@ -28,14 +28,17 @@ $this->load->view('template/sidebar');
                </div>
                <!-- /.box-header -->
                <div class="box-body">
+               <form>
                	 <div class="row">
-               	 	<div class="col-xs-6"><pre>Keputusan Presiden</pre><br></div>
+               	 	<div class="col-xs-6"><pre>Keputusan Presiden</pre><br>
+               	 	</div>
                	 	<div class="col-xs-6"><pre>Surat Menteri</pre><br></div>
                	 </div>
                	 <div class="row">
                	 	<div class="col-xs-6"><pre>Memo SESMILPRES</pre><br></div>
                	 	<div class="col-xs-6"><pre>MAJU &amp; KEMBALI</pre><br></div>
                	 </div>
+               </form>
                </div>
                <!-- /.box-body -->
 			</div>
