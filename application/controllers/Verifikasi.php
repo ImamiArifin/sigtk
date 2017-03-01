@@ -3,32 +3,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Verifikasi extends CI_Controller {
 
-	public function index()
+
+	public function index($id, $subid)
 	{
-		$this->load->view('kl');
+		
 	}
 
-	public function lihat($id = null, $subid = null)
+	public function data($id = null, $subid = null)
 	{
 		if($id != null AND $subid == null){
-			$this->load->view('lihat');
+			$this->load->view('usulan');
 		}
 		else if($id != null AND $subid != null){
-			$this->load->view('verifikasi');
+			$this->load->view('tambahPengusul');
 		}
 		else{
-			//echo "<script>history.go(-1);</script>";
+			$this->load->view('data');
 		}
-	}
+	}	
 
-	public function cetakMemo()
+	public function konfirmasi($id = null, $subid = null)
 	{
-
-		$this->load->view('cetakMemo');
-	}
-
-	public function cetakDaftarGTK()
-	{
-		$this->load->view('instansi');
+		if($id != null AND $subid == null){
+			$this->load->view('listUsulan');
+		}
+		else if($id != null AND $subid != null){
+			$this->load->view('listPengusul');
+		}
+		else{
+			$this->load->view('konfirmasi');
+		}
 	}
 }

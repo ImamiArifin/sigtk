@@ -59,10 +59,8 @@
                     <span>Verifikasi</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="<?php echo base_url('index.php/Verifikasi')?>"><i class="fa fa-circle-o"></i> Pengisian Data GTK</a></li>
+                    <li><a href="<?php echo base_url('index.php/Verifikasi/data')?>"><i class="fa fa-circle-o"></i> Pengisian Data GTK</a></li>
                     <li><a href="<?php echo base_url('index.php/Verifikasi/konfirmasi')?>"><i class="fa fa-circle-o"></i> Verifikasi Penerimaan GTK</a></li>
-                    <li><a href="<?php echo base_url('index.php/Verifikasi/cetakMemo')?>"><i class="fa fa-circle-o"></i> Cetak Memorandum</a></li>
-                    <li><a href="<?php echo base_url('index.php/Verifikasi/cetakDaftarGTK')?>"><i class="fa fa-circle-o"></i> Cetak Daftar Penerima GTK</a></li> <!-- untuk yang diterima dari tidak lolos -->
                 </ul>
             </li>
 			<li class="treeview">
@@ -72,7 +70,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="#"><i class="fa fa-circle-o"></i> Histori Penerimaan GTK</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Cetak Dokumen</a></li>
+                    <li><a href="<?php echo base_url('index.php/Penganugerahan/cetak'); ?>"><i class="fa fa-circle-o"></i> Cetak Dokumen</a></li>
                 </ul>
             </li>
 			</ul>

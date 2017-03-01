@@ -28,7 +28,7 @@ $this->load->view('template/sidebar');
             <div class="box box-solid box-primary">
                <div class="box-header">
                	 <br>
-                 <h3 class="box-title"><strong>List Usulan GTK</strong></h3>
+                 <h3 class="box-title"><strong>List Usulan GTK Setiap Intansi</strong></h3>
                </div>
                <!-- /.box-header -->
                <div class="box-body">
@@ -36,70 +36,83 @@ $this->load->view('template/sidebar');
                    <thead>
                    <tr>
                    	 <th style="width: 5%;text-align: center;">No</th>
-                     <th style="width: 75%;text-align: center;">Usulan Bulan &amp; Tahun</th>
-                     <th style="width: 20%;text-align: center">Menu</th>
+                     <th style="width: 55%;text-align: center;">Nama Instansi</th>
+                     <th style="width: 10%;text-align: center">Menu</th>
+                     <th style="width: 25%;text-align: center">Cetak</th>
                    </tr>
                    </thead>
                    <tbody>
                    <tr>
                      <td style="text-align: center;">1</td>
-                     <td>Januari 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/1'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>SEKRETARIAT JENDERAL DEWAN PERWAKILAN RAKYAT (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/1/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger" disabled>Memorandum</a> | <a href="#" class="btn btn-danger" disabled>Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">2</td>
-                     <td>Februari 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/2'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>BADAN PEMERIKSA KEUANGAN (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/2/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger" disabled>Memorandum</a> | <a href="#" class="btn btn-danger" disabled>Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">3</td>
-                     <td>Maret 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/3'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>MAHKAMAH KONSTITUSI (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/3/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">4</td>
-                     <td>April 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/4'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>KOMISI YUDISIAL (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/4/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">5</td>
-                     <td>Mei 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/5'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>KEMENTERIAN KOORDINATOR BIDANG POLITIK HUKUM DAN KEAMANAN (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/5/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">6</td>
-                     <td>Juni 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/6'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>KEMENTERIAN KOORDINATOR BIDANG PEREKONOMIAN (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/6/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">7</td>
-                     <td>Juli 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/7'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>KEMENTERIAN KOORDINATOR BIDANG PEMBANGUNAN MANUSIA DAN KEBUDAYAAN (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/7/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">8</td>
-                     <td>Agustus 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/8'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>KOORDINATOR BIDANG KEMARITIMAN DAN SUMBER DAYA (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/8/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">9</td>
-                     <td>September 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/9'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>KEMENTERIAN SEKRETARIAT NEGARA (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/9/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">10</td>
-                     <td>Oktober 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/10'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>KEMENTERIAN DALAM NEGERI (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/10/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">11</td>
-                     <td>November 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/11'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>KEMENTERIAN LUAR NEGERI (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/11/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    <tr>
                      <td style="text-align: center;">12</td>
-                     <td>Desember 2017</td>
-                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/12'); ?>" class="btn btn-primary">Lihat Detail</a> | <a href="#" class="btn btn-danger">CETAK</a></td>
+                     <td>KEMENTERIAN PERTAHANAN (100) Orang</td>
+                     <td style="text-align: center;"><a href="<?php echo site_url('Verifikasi/konfirmasi/12/1'); ?>" class="btn btn-primary">Lihat Detail</a></td>
+                     <td style="text-align: center;"><a href="#" class="btn btn-danger">Memorandum</a> | <a href="#" class="btn btn-danger">Daftar Pengusul GTK</a></td>
                    </tr>
                    </tbody>
                  </table>
